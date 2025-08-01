@@ -1,0 +1,54 @@
+{
+  "name": "Fern",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "description": "Unique identifier for the fern"
+    },
+    "name": {
+      "type": "string",
+      "description": "Common name of the fern"
+    },
+    "scientificName": {
+      "type": "string",
+      "description": "Scientific/botanical name of the fern"
+    },
+    "description": {
+      "type": "string",
+      "description": "Detailed description of the fern"
+    },
+    "habitat": {
+      "type": "string",
+      "description": "Natural habitat where the fern grows"
+    },
+    "sunRequirement": {
+      "type": "string",
+      "description": "Light requirements (shade, partial shade, full sun)"
+    },
+    "waterRequirement": {
+      "type": "string",
+      "description": "Water requirements (low, medium, high)"
+    },
+    "difficulty": {
+      "type": "string",
+      "description": "Care difficulty level (easy, medium, hard)"
+    },
+    "height": {
+      "type": "string",
+      "description": "Mature height of the fern"
+    },
+    "imageUrl": {
+      "type": "string",
+      "description": "URL to fern image"
+    },
+    "isFavorite": {
+      "type": "boolean",
+      "description": "Whether this fern is marked as favorite"
+    }
+  },
+  "required": [
+    "name",
+    "scientificName"
+  ]
+}
